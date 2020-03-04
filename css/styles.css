@@ -1,12 +1,12 @@
 .search-button{
-    font-family: arial,sans-serif;
     background-color:#f2f2f2;
     border: 1px solid#f2f2f2;
     color:#5F6368;
     font-size: 14px;
     padding: 12px;
     border-radius: 5%;
-    margin: 5px;    
+    margin: 5px;   
+    font-family: arial,sans-serif; 
 }
 
 .main-content{
@@ -21,29 +21,38 @@
 
 .buttons-container{
     margin: 20px;
+    text-align: center;
 }
 
 .search-field{
     font-size: 16px;
     margin: 10px;
     border: 0px;
+    font-family: arial,sans-serif;
 }
 
 .search-form{
     border: 1px solid#f2f2f2;
-    border-radius: 15px;
+    border-radius: 50px;
     width: 500px;
-    padding: 10px;
+    padding-left: 17px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
 }
 
 
 .google-logo{
     padding-bottom: 20px;
+    text-align: center;
+
 }
 
 .google-logo img{
     width: 310px;
     height: auto;
+    
 }
 
 
