@@ -11,7 +11,7 @@
 
 .main-content{
     position: fixed;
-    top: 35%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -34,7 +34,8 @@
 .search-form{
     border: 1px solid#f2f2f2;
     border-radius: 50px;
-    width: 500px;
+    box-shadow: 0px 2px 6px 1px #cfcfcfb3;
+    width: 550px;
     padding-left: 17px;
     padding-right: 8px;
     padding-bottom: 5px;
@@ -50,9 +51,8 @@
 }
 
 .google-logo img{
-    width: 310px;
+    width: 270px;
     height: auto;
-    
 }
 
 
