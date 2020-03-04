@@ -29,6 +29,11 @@
     margin: 10px;
     border: 0px;
     font-family: arial,sans-serif;
+    width: 31.5rem;
+}
+
+.search-field:focus{
+    outline-color: white;
 }
 
 .search-form{
