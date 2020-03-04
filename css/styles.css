@@ -16,22 +16,23 @@
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-}
-
-.main-content>div{
-    padding: 15px;
-
-}
-
-.buttons-container{
     justify-content: center;
 }
 
+.buttons-container{
+    margin: 20px;
+}
+
 .search-field{
+    font-size: 16px;
+    margin: 10px;
+    border: 0px;
+}
+
+.search-form{
     border: 1px solid#f2f2f2;
     border-radius: 15px;
     width: 500px;
-    font-size: 16px;
     padding: 10px;
 }
 
@@ -44,5 +45,7 @@
     width: 310px;
     height: auto;
 }
+
+
 
 
