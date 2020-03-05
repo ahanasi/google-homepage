@@ -27,6 +27,10 @@
     text-align: center;
 }
 
+li.navlink.nav-right.grid{
+    padding-top: 20px;
+}
+
 .buttons-container{
     margin: 20px;
     text-align: center;
@@ -96,6 +100,7 @@
 
 .nav-right img{
     display: inline;
+    width: 25px;
 }
 
 .navlink{
