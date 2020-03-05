@@ -55,7 +55,7 @@
     outline-color: white;
 }
 
-.search-field:focus::placeholder{
+input.search-field:focus::placeholder{
     color: transparent;
 }
 
