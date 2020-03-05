@@ -28,12 +28,13 @@
     margin-top: 50px;
 }
 
-.grid i{
-    color: grey;
+.grid img{
+    opacity: 0.5;
+    width: 16px;
 }
 
-.grid i:hover{
-    color: black;
+.grid img:hover{
+    opacity: 1;
 }
 
 .buttons-container{
@@ -47,7 +48,7 @@
     border: 0px;
     font-family: arial,sans-serif;
     float: left;
-    width: 90%; 
+    width: 83%; 
 }
 
 .search-field:focus{
@@ -68,6 +69,13 @@
     padding-top: 0.75rem;
     padding-left: 1rem;
     color: #80808087;
+}
+
+.search-form img{
+    float: right;
+    padding-top: 0.45rem;
+    padding-right: 1rem;
+    width: 25px;
 }
 
 
