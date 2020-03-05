@@ -27,8 +27,12 @@
     text-align: center;
 }
 
-li.navlink.nav-right.grid{
-    padding-top: 20px;
+.grid i{
+    color: grey;
+}
+
+.grid i:hover{
+    color: black;
 }
 
 .buttons-container{
@@ -95,23 +99,24 @@ li.navlink.nav-right.grid{
     padding-top: 24px;
     padding-right: 23px;
     padding-left: 5px;
-    position: sticky;
-}
-
-.nav-right img{
-    display: inline;
-    width: 25px;
 }
 
 .navlink{
     margin-bottom: 100px;
 }
 
-.navbar a{
+.nav-left a{
     text-decoration: none;
     font-family: arial,sans-serif; 
-    font-size: 14px;
+    font-size: 13px;
     color: #000000a3;
+}
+
+.nav-right a{
+    text-decoration: none;
+    font-family: arial,sans-serif; 
+    font-size: 13px;
+    color: black;
 }
 
 .navbar a:hover{
