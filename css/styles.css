@@ -119,6 +119,10 @@
     padding-top: 18px;
 }
 
+.button button:hover{
+    box-shadow: 0 1px #80808029;
+}
+
 .nav-left a{
     text-decoration: none;
     font-family: arial,sans-serif; 
