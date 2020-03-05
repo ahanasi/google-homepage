@@ -55,6 +55,10 @@
     outline-color: white;
 }
 
+.search-field:focus::placeholder{
+    color: transparent;
+}
+
 .search-form{
     border: 1px solid#f2f2f2;
     border-radius: 50px;
@@ -78,6 +82,9 @@
     width: 25px;
 }
 
+.search-form img:hover{
+    cursor: pointer;
+}
 
 .google-logo{
     padding-bottom: 20px;
