@@ -105,6 +105,20 @@
     margin-bottom: 100px;
 }
 
+.button button{
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    height: 1.8rem;
+    width: 4rem;
+}
+
+.button {
+    padding-top: 18px;
+}
+
 .nav-left a{
     text-decoration: none;
     font-family: arial,sans-serif; 
@@ -122,6 +136,8 @@
 .navbar a:hover{
     text-decoration: underline;
 }
+
+
 
 
 
