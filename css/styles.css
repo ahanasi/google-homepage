@@ -20,15 +20,10 @@
 }
 
 .main-content{
-    padding-top: 50px;
-    position: fixed;
-    top: 20%;
-    left: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-width: 1115px;
+    display: inline-block;
+    margin: auto;
     width: 100%;
+    min-width: 1150px;
     text-align: center;
 }
 
@@ -43,8 +38,7 @@
     border: 0px;
     font-family: arial,sans-serif;
     float: left;
-    width: 90%;
-    
+    width: 90%; 
 }
 
 .search-field:focus{
@@ -79,7 +73,6 @@
 
 .navbar{
     list-style-type: none;
-    padding-bottom: 100px;
     margin: 0;
     position: relative;
     min-width: 1150px;
@@ -103,6 +96,10 @@
 
 .nav-right img{
     display: inline;
+}
+
+.navlink{
+    margin-bottom: 100px;
 }
 
 .navbar a{
