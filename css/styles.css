@@ -65,7 +65,7 @@ input.search-field:focus::placeholder{
     box-shadow: 0px 2px 6px 1px #cfcfcfb3;
     display: inline-block; 
     margin: 0 auto;
-    width: 550px;
+    width: 570px;
 }
 
 .search-form i{
